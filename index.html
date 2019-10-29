@@ -1,0 +1,371 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/stars.css" />
+    <link rel="shortcut icon" type="image/png" href="imgs\favicon.png" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3ae8a997cb.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <title>Tommy Mallis</title>
+  </head>
+
+  <body cz-shortcut-listen="true">
+    <!------------------------------------Nav------------------------------------>
+    <div class="navigation">
+      <input
+        type="checkbox"
+        class="navigation__checkbox"
+        id="navi-toggle"
+        rel="js-navi-toggle"
+      />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link"><span>01</span>About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#skills" class="navigation__link"><span>02</span>Skills</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#projects" class="navigation__link"
+              ><span>03</span>Projects</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span>04</span>Contact Me</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a
+              href="./resources/Thomas A. Mallis Resume.pdf"
+              class="navigation__link"
+              download
+              >My Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!------------------------------------End Nav------------------------------------>
+    <!------------------------------------Header------------------------------------>
+    <header class="header">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div class="header__logo-box">
+        <a href="https://www.tommymallis.com/"
+          ><img src="imgs\tm icon.png" alt="tommy logo" class="header__logo"
+        /></a>
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Tommy Mallis</span>
+          <span class="heading-primary--sub">Front-End Developer</span>
+        </h1>
+        <a href="#projects" class="btn btn--white btn--animated">projects</a>
+      </div>
+    </header>
+    <!------------------------------------End Header------------------------------------>
+    <main>
+      <!------------------------------------About------------------------------------>
+
+      <section class="section-about" id="about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">
+            about me
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">I'm Tommy</h3>
+            <p class="paragraph">
+              I'm a developer currently pursuing a professional role in
+              Front-End Development. I currently work with HTML, CSS,
+              JavaScript, React, and React-Redux.
+            </p>
+            <p class="paragraph">
+              I'm an Atlanta born software and tech enthusiast who has a passion
+              for web development. I also enjoy keeping up with the latest video
+              game releases and adding show recommendations to my never ending
+              watch list.
+            </p>
+            <p class="paragraph">
+              On weekends you can find me hanging out with friends, competing in
+              trivia at the local tavern, playing computer games with friends,
+              or just hanging out with a bowl of boiled peanuts watching
+              cartoons.
+            </p>
+
+            <a href="#features" class="btn-text">My skills →</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="imgs\Avatarboi.png"
+                alt="tommy"
+                class="composition__photo composition__photo--tommy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------------End About------------------------------------>
+      <!------------------------------------Skills------------------------------------>
+
+      <section class="section-features" id="skills">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fab fa-html5"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">HTML</h3>
+              <p class="feature-box__text">
+                Making use of the latest semantic elements I build meaningful
+                code with accessibility in mind.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fab fa-css3-alt"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">Style</h3>
+              <p class="feature-box__text">
+                I work in all style-sheet languages from CSS to SASS to style
+                the perfect site for user use.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fab fa-js"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">JavaScript</h3>
+              <p class="feature-box__text">
+                Sites are built to be dynamic using JS, consuming APIs and
+                backend data for dynamic content.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="feature-box__icon fab fa-react"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">React</h3>
+              <p class="feature-box__text">
+                React applications are built with thoughtfully crafted
+                components and state management.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------------End Skills------------------------------------>
+      <!------------------------------------Projects------------------------------------>
+
+      <section class="section-services" id="projects">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Projects</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front card__side--front-1">
+                <div class="card__picture card__picture--1">
+                  &nbsp;
+                </div>
+
+                <h4 class="card__heading card__heading--1">
+                  <span class="card__heading-title card__heading-title--1"
+                    >Recipe Search</span
+                  >
+                </h4>
+                <div class="card__details card__details--1">
+                  <p>
+                    Consuming endpoints supplied by food2fork API, this app was
+                    developed so searching for your favorite recipes is a
+                    breeze.
+                  </p>
+                  <p class="project--icons">
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                    <i class="fab fa-bootstrap fa-2x"></i>
+                    <i class="fab fa-react fa-2x"></i>
+                  </p>
+                </div>
+              </div>
+
+              <div class="card__side card__side--back card__side--back-1"></div>
+            </div>
+            <div class="btn--holder">
+              <a class="btn btn--white" href="#projects">Visit Site</a>
+              <a
+                class="btn btn--white"
+                href="https://github.com/whoop-t/recipe-search"
+                target="_blank"
+                >source code</a
+              >
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front card__side--front-2">
+                <div class="card__picture card__picture--2">
+                  &nbsp;
+                </div>
+
+                <h4 class="card__heading card__heading--2">
+                  <span class="card__heading-title card__heading-title--2"
+                    >Landing Pages</span
+                  >
+                </h4>
+
+                <div class="card__details card__details--2">
+                  <p>
+                    Using a design found on Dribble, I created a landing page
+                    for a lemonade supplier. Brought to life with GSAP.
+                  </p>
+                  <p class="project--icons">
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <i class="fab fa-sass fa-2x"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2"></div>
+            </div>
+            <div class="btn--holder">
+              <a
+                class="btn btn--white"
+                href="https://lemonade-landing.herokuapp.com"
+                target="_blank"
+                >Visit Site</a
+              >
+              <a
+                class="btn btn--white"
+                href="https://github.com/whoop-t/lemonade-landing-page"
+                target="_blank"
+                >source code</a
+              >
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front card__side--front-3">
+                <div class="card__picture card__picture--3">
+                  &nbsp;
+                </div>
+
+                <h4 class="card__heading card__heading--3">
+                  <span class="card__heading-title card__heading-title--3"
+                    >Drink App</span
+                  >
+                </h4>
+
+                <div class="card__details card__details--3">
+                  <p>
+                    Consuming endpoints supplied by TheCocktailDB API, you can
+                    search for a drink and get a detialed view of the recipe.
+                  </p>
+                  <p class="project--icons">
+                    <i class="fab fa-html5 fa-2x"></i>
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                    <i class="fab fa-bootstrap fa-2x"></i>
+                    <i class="fab fa-react fa-2x"></i>
+                  </p>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3"></div>
+            </div>
+            <div class="btn--holder">
+              <a
+                class="btn btn--white"
+                href="https://drinky-app.herokuapp.com/"
+                target="_blank"
+                >Visit Site</a
+              >
+              <a
+                class="btn btn--white"
+                href="https://github.com/whoop-t/cocktail-database-app"
+                target="_blank"
+                >source code</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------------Projects------------------------------------>
+    </main>
+    <!------------------------------------Footer------------------------------------>
+    <footer class="footer" id="contact">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary" id="footer-head">Contact Me</h2>
+      </div>
+      <div class="row--foot">
+        <div class="col-1-of-2--foot">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a
+                  href="https://www.linkedin.com/in/tommy-mallis/"
+                  target="_blank"
+                  class="footer__link"
+                  ><i class="fab fa-linkedin fa-5x"></i
+                ></a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="https://github.com/whoop-t"
+                  class="footer__link"
+                  target="_blank"
+                  ><i class="fab fa-github-square fa-5x"></i
+                ></a>
+              </li>
+              <li class="footer__item">
+                <a
+                  href="mailto:tommymallis@gmail.com"
+                  class="footer__link"
+                  target="_blank"
+                  ><i class="fas fa-envelope fa-5x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!------------------------------------End Footer------------------------------------>
+    <!------------------------------------Script for Nav------------------------------------>
+    <script>
+      $('ul.navigation__list > li').click(function() {
+        $('input[type=checkbox]').click();
+      });
+    </script>
+  </body>
+</html>
