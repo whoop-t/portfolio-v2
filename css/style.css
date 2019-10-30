@@ -327,6 +327,15 @@ body {
 .card__side--back-3 {
   background: url(../imgs/drinkgif.gif) no-repeat center;
 }
+.card__side--back-4 {
+  background: url(../imgs/pokedex.gif) no-repeat center;
+}
+.card__side--back-5 {
+  background: url(../imgs/lemonadeanimationmobile.gif) no-repeat center;
+}
+.card__side--back-6 {
+  background: url(../imgs/drinkgif.gif) no-repeat center;
+}
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
 }
@@ -345,6 +354,15 @@ body {
   background: url('../imgs/lemonadecard.PNG');
 }
 .card__picture--3 {
+  background: url('../imgs/drinkforcard.jpg');
+}
+.card__picture--4 {
+  background: url('../imgs/sandwhichcard.jpg');
+}
+.card__picture--5 {
+  background: url('../imgs/lemonadecard.PNG');
+}
+.card__picture--6 {
   background: url('../imgs/drinkforcard.jpg');
 }
 .card__heading {
