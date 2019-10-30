@@ -328,13 +328,13 @@ body {
   background: url(../imgs/drinkgif.gif) no-repeat center;
 }
 .card__side--back-4 {
-  background: url(../imgs/pokedex.gif) no-repeat center;
+  background: url(../imgs/pokedex.gif) no-repeat;
 }
 .card__side--back-5 {
-  background: url(../imgs/lemonadeanimationmobile.gif) no-repeat center;
+  background: url(../imgs/museumspace.gif) no-repeat center;
 }
 .card__side--back-6 {
-  background: url(../imgs/drinkgif.gif) no-repeat center;
+  background: url(../imgs/hero-gif.gif) no-repeat center;
 }
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
@@ -357,13 +357,13 @@ body {
   background: url('../imgs/drinkforcard.jpg');
 }
 .card__picture--4 {
-  background: url('../imgs/sandwhichcard.jpg');
+  background: url('../imgs/pikachucard.PNG');
 }
 .card__picture--5 {
-  background: url('../imgs/lemonadecard.PNG');
+  background: url('../imgs/spacecard.PNG');
 }
 .card__picture--6 {
-  background: url('../imgs/drinkforcard.jpg');
+  background: url('../imgs/htmlemailcard.PNG') top;
 }
 .card__heading {
   font-size: 2.8rem;
@@ -505,7 +505,7 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  transition: transform 0.3s;
+  transition: all ease 0.3s;
 }
 .feature-box__icon {
   font-size: 8rem;
@@ -522,6 +522,7 @@ body {
 }
 .feature-box:hover {
   transform: translateY(-1.3rem) scale(1.03);
+  background-color: #fff;
 }
 
 label {
