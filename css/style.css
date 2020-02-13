@@ -323,7 +323,7 @@ body {
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background: url(../imgs/recipegif.gif) no-repeat center;
+  background: url(../imgs/whiteboard-io.gif) no-repeat center;
 }
 .card__side--back-2 {
   background: url(../imgs/lemonadeanimationmobile.gif) no-repeat center;
@@ -352,7 +352,7 @@ body {
   background-blend-mode: screen;
 }
 .card__picture--1 {
-  background: url('../imgs/sandwhichcard.jpg');
+  background: url('../imgs/whiteboard.jpg');
 }
 .card__picture--2 {
   background: url('../imgs/lemonadecard.PNG');
